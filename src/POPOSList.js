@@ -2,6 +2,9 @@
 
 import React from 'react';
 import POPOSSpace from './POPOSSpace';
+import './POPOSList.css';
+import footer from './footer'
+import './Footer.css'
 
 function POPOSList() {
   return (
@@ -37,6 +40,12 @@ function POPOSList() {
         image="citigroup-center.jpg"
       />
     </div>
+    // <div className = "footer">
+    //     <footer
+    //     name="FranklinPhan"
+    //     year="2020"
+    //     />
+    // </div>
   )
 }
 
