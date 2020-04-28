@@ -1,6 +1,6 @@
 import React from 'react'
 import './Footer.css'
-function footer(props) {
+function Footer(props) {
     const { name, year } = props
     return (
       <div>
@@ -8,4 +8,4 @@ function footer(props) {
       </div>
     )
   }
-export default footer
+export default Footer
